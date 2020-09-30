@@ -61,10 +61,9 @@ h1,h2,h3,h4 {
     }
     
     nav ul li a:hover {
-
-        background: var(--themecolor);
-        color:#fff;
-    }
+    background: #d7ad71;
+    color: #440909;
+}
     /*Styling for larger devices*/
  
     .featuredimage  .grid-images{
