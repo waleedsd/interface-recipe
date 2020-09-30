@@ -316,8 +316,6 @@ p{
             margin-right:10%;
         }
 article {
-            margin-left: 10%;
-            margin-right:10%;
             display: grid;
             grid-template-columns: 2fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
@@ -326,7 +324,7 @@ article {
               "Introduction Hello-Grids"
               "Ingredients Hello-Grids"
               "Directions Hello-Grids";
-              margin: 10px 50px;
+              margin: 10px 10%;
           }
           .Introduction { grid-area: Introduction; }
           .Ingredients { grid-area: Ingredients; }
