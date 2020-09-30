@@ -311,6 +311,10 @@ p{
     line-height: 1.8rem;
         }
 
+.featuredimage{
+            margin-left: 10%;
+            margin-righ:10%;
+        }
 article {
             margin-left: 10%;
             margin-righ:10%;
