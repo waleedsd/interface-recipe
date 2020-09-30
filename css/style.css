@@ -84,9 +84,9 @@ h1,h2,h3,h4 {
 
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: var(--themecolor);
-    padding: 1.8rem 2rem;
+    padding: 1.2rem 1rem;
     margin-bottom: -0.5rem;
     background: url(../images/Creamy-Garlic-Chicken-IMAGE-1.jpg);
     background-position: center;
@@ -102,18 +102,19 @@ margin-top: -30px;
 padding-bottom:2rem;
 }
 .intoduction p {
-    padding-left: 0.5rem;
-    font-size: 1.2rem;
-    font-weight: 400;
+    padding: 0.2em 0.8em;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.5rem;
 }
 li{
-
-line-height: 1.8rem;
-color: #623805;
-font-weight: normal;
-padding: 0.2em 0.8em;
-font-family: 'Comfortaa', cursive;
-font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #623805;
+    font-weight: normal;
+    padding: 0.2em 0.8em;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
 }
 .Ingredients {
     background-image: url(../images/ingred-back.jpg);
@@ -271,10 +272,9 @@ h3{
     color: #fff6af;
       }
   .featuredtilte {
-    font-size: 2rem;          
+      font-size: 2rem;
       position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 65%;
       transform: translate(-50%, -50%);
       color: #fbf8f8;
       font-size: 2rem;
@@ -284,6 +284,31 @@ h3{
       text-shadow: 2px 2px chocolate;
       font-family: 'Comfortaa', cursive;
   }
+ @media only screen and (min-width: 550px){
+h2 {
+    font-size: 2rem;
+    padding: 1.8rem 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.featuredtilte {
+font-size: 2rem;          
+      position: absolute;
+      top: 50%;
+      left: 50%;
+}
+
+li {
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+}
+     
     @media only screen and (min-width: 780px){
     h2{
     font-size: 4rem;
