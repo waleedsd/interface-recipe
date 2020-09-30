@@ -274,7 +274,8 @@ h3{
   .featuredtilte {
       font-size: 2rem;
       position: absolute;
-      top: 65%;
+      top: 50%;
+      left: 50%;
       transform: translate(-50%, -50%);
       color: #fbf8f8;
       font-size: 2rem;
@@ -293,14 +294,6 @@ h2 {
 p {
     font-size: 1.2rem;
     font-weight: 400;
-}
-
-
-.featuredtilte {
-font-size: 2rem;          
-      position: absolute;
-      top: 50%;
-      left: 50%;
 }
 
 li {
