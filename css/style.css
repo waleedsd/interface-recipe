@@ -303,9 +303,9 @@ li {
 }
      
     @media only screen and (min-width: 780px){
- .featuredtilte {
-    font-size: 7rem;          
-    top: 50%;
+    .featuredtilte {
+    font-size: 2rem;
+    top: 35%;
         }
  h2{
     font-size: 4rem;
@@ -329,7 +329,6 @@ article {
               "Introduction Hello-Grids"
               "Ingredients Hello-Grids"
               "Directions Hello-Grids";
-              margin: 10px 10%;
           }
           .Introduction { grid-area: Introduction; }
           .Ingredients { grid-area: Ingredients; }
@@ -415,4 +414,18 @@ nav ul li a:hover::after,nav ul li a:hover::before{
       ". . ."
       ". . .";
   }
+}
+@media only screen and (min-width: 1200px){  
+.featuredtilte {
+    font-size: 4rem;
+    }
+article {
+    margin: 10px 10%;
+}
+
+@media only screen and (min-width: 1500px){  
+.featuredtilte {
+    font-size: 6rem;
+    top: 45%;
+}
 }
