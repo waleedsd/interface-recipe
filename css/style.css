@@ -137,10 +137,11 @@ h2.lightcolor {
 p {
     padding: 0.2em 0.8em;
     font-family: 'Comfortaa', cursive;
-    font-size: 1.2rem;
-    text-align: justify;
-    line-height: 1.8rem;}
-    
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.5rem;
+    padding: 0.2em 0.8em;
+}    
     footer {
         background-color: rgb(36, 26, 2);
         color: var(--light);
@@ -291,11 +292,6 @@ h2 {
     padding: 1.8rem 2rem;
 }
 
-p {
-    font-size: 1.2rem;
-    font-weight: 400;
-}
-
 li {
     line-height: 1.8rem;
     font-size: 1.2rem;
@@ -308,6 +304,11 @@ li {
         }
   .featuredtilte {
             font-size: 7rem;          
+        }
+        p{
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.8rem;
         }
 
          article {
