@@ -243,9 +243,6 @@ margin-top: 1rem;
         top:1px;
     }
     
-
-
-
 h3{
     padding-left: 0.5rem;
 }
@@ -288,7 +285,9 @@ h3{
       font-family: 'Comfortaa', cursive;
   }
     @media only screen and (min-width: 780px){
-
+    h2{
+    font-size: 4rem;
+        }
   .featuredtilte {
             font-size: 7rem;          
         }
@@ -379,11 +378,7 @@ h3{
                   }
     }
 
-    @media only screen and (min-width: 920px){
-    h2{
-    font-size:4rem;
-        }
-    
+    @media only screen and (min-width: 920px){  
     .introgrids{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
