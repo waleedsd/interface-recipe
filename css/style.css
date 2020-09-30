@@ -380,7 +380,10 @@ h3{
     }
 
     @media only screen and (min-width: 920px){
-
+    h2{
+    font-size:4rem;
+        }
+    
     .introgrids{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
