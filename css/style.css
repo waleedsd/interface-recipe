@@ -1,6 +1,6 @@
 /* CSS Variables */
 :root {
-    --light: #c4cad8;
+    --light: #f8c58438;
     --themecolor: #4f2f07;
     --primary: #Bf7e04;
     --Dark: #732002;
@@ -142,10 +142,14 @@ p {
     padding: 0.2em 0.8em;
 }    
     footer {
-        background-color: rgb(36, 26, 2);
-        color: var(--light);
-        line-height: 3rem;
-        text-align: center;
+background-color: var(--Dark);
+color: var(--secondary);
+line-height: 6rem;
+text-align: center;
+}
+
+.footerspace {
+    padding-right: 4em;
 }
 
 h4 {
