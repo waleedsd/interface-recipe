@@ -313,11 +313,11 @@ p{
 
 .featuredimage{
             margin-left: 10%;
-            margin-righ:10%;
+            margin-right:10%;
         }
 article {
             margin-left: 10%;
-            margin-righ:10%;
+            margin-right:10%;
             display: grid;
             grid-template-columns: 2fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
