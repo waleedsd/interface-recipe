@@ -275,7 +275,7 @@ h3{
   .featuredtilte {
       font-size: 2rem;
       position: absolute;
-      top: 50%;
+      top: 58%;
       left: 50%;
       transform: translate(-50%, -50%);
       color: #fbf8f8;
@@ -299,19 +299,20 @@ li {
 }
      
     @media only screen and (min-width: 780px){
-    h2{
+ .featuredtilte {
+    font-size: 7rem;          
+    top: 50%;
+        }
+ h2{
     font-size: 4rem;
         }
-  .featuredtilte {
-            font-size: 7rem;          
-        }
-        p{
+p{
     font-size: 1.2rem;
     text-align: justify;
     line-height: 1.8rem;
         }
 
-         article {
+article {
             max-width:100%;
             display: grid;
             grid-template-columns: 2fr 1fr;
@@ -329,24 +330,24 @@ li {
           .Hello-Grids { grid-area: Hello-Grids; }
         
 
-        nav{
+ nav{
             display: flex;
             justify-content: space-between;
             background:#805504;
             align-items: center;
         }
-        .grids-feat-images {
+.grids-feat-images {
             width:100%;
             height: auto;
 
         }
-        nav ul{
+nav ul{
             display: flex;
             align-items: center;
             background:none;
             flex-wrap: wrap;
         }
-        nav div:first-child h1{
+nav div:first-child h1{
             padding: 0;
             margin:0 1rem;
         }
@@ -354,15 +355,15 @@ li {
             height: 52px;
             
         }
-        nav ul li{
+nav ul li{
             border-bottom:none;
             flex: 1 0 auto;
             position: relative;
         }
-        nav ul li a{
+nav ul li a{
             padding:1.2rem 1rem;
         }
-        nav ul li a::before, nav ul li a::after{
+nav ul li a::before, nav ul li a::after{
             content: "";
             position: absolute;
             bottom:0;
@@ -373,19 +374,19 @@ li {
             transition: .2s width ease-in-out;
         }
 
-        ul.to-be-differ {
+ul.to-be-differ {
                 background: var(--secondary);
                 padding: 1rem 4rem;
                 line-height: 2rem;        }
         
-        nav ul li a::before{
+nav ul li a::before{
             left:0;
         }
         
-        nav ul li a:hover::after,nav ul li a:hover::before{
+nav ul li a:hover::after,nav ul li a:hover::before{
             width: 50%;
         } 
-        .introgrids{
+.introgrids{
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
@@ -397,8 +398,8 @@ li {
                   }
     }
 
-    @media only screen and (min-width: 920px){  
-    .introgrids{
+@media only screen and (min-width: 920px){  
+.introgrids{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
