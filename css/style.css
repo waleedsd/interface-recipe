@@ -1,0 +1,393 @@
+/* CSS Variables */
+:root {
+    --light: #c4cad8;
+    --themecolor: #4f2f07;
+    --primary: #Bf7e04;
+    --Dark: #732002;
+    --secondary: #d8a566;
+    --average: #d95204;
+     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    }
+    body {
+        height: 100vh;
+    }
+    html {
+      box-sizing: border-box;
+      font-family: lato, sans-serif;
+      color: var(--dark);
+    }
+h1,h2,h3,h4 {
+    font-family: 'Comfortaa', cursive;
+}
+
+    body, html{
+        font-size: 100%;
+        font-family: lato, sans-serif;
+        background: #fbf7f038;
+        margin:0;
+        padding: 0;
+    }
+    nav ul{
+        list-style: none;
+        padding:0;
+        background: #805504;
+    }
+    
+    nav ul li a {
+        color: var(--primary);
+        text-decoration: none;
+        padding: .8rem 1rem;
+        display: block;
+        line-height: 1;
+        font-weight: bold;
+        background: var(--themecolor);
+    }
+    nav ul li{
+        border-bottom: 1px dotted #ddd;
+    }
+    /*styling logo*/
+    
+    nav div:first-child{
+        background:#805504;
+    }
+    nav div:first-child h1{
+        line-height: 0;
+        padding: .8rem 0rem;
+        text-align: center;
+    }
+        
+    nav div:first-child h1, nav ul{
+        margin:0;
+    }
+    
+    nav ul li a:hover {
+
+        background: var(--themecolor);
+        color:#fff;
+    }
+    /*Styling for larger devices*/
+ 
+    .featuredimage  .grid-images{
+        position: relative;
+        text-align: center;
+        color: var(--light);
+        height: auto;
+        
+      }
+      
+      .grid-images2 {
+        position: relative;
+        text-align: center;
+        color: white;
+        height: auto;
+      }
+
+
+h2 {
+    font-size: 2rem;
+    color: var(--themecolor);
+    padding: 1.8rem 2rem;
+    margin-bottom: -0.5rem;
+    background: url(../images/Creamy-Garlic-Chicken-IMAGE-1.jpg);
+    background-position: center;
+    display: inline-block;
+    text-shadow: 1px 1px #c4cad8;
+}
+h2.lighcolor {
+    background: none;
+}
+.intoduction {
+    background: #fff;
+margin-top: -30px;
+padding-bottom:2rem;
+}
+.intoduction p {
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+li{
+
+line-height: 1.8rem;
+color: #623805;
+font-weight: normal;
+padding: 0.2em 0.8em;
+font-family: 'Comfortaa', cursive;
+font-size: 1.2rem;
+}
+.Ingredients {
+    background-image: url(../images/ingred-back.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+img.Ingredients {
+    opacity: 0.5;
+  }
+
+  h2.Ingredients {
+    color: #fdcc64;
+    text-shadow: 1px 1px #3e1507;
+}
+
+h2.lightcolor {
+    color: #feebf1 
+}
+p {
+    padding: 0.2em 0.8em;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.8rem;}
+    
+    footer {
+        background-color: rgb(36, 26, 2);
+        color: var(--light);
+        line-height: 3rem;
+        text-align: center;
+}
+
+h4 {
+    font-size:.8rem;
+    color: #fff;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+ 
+  .sharinggbc{
+margin-top: 1rem;
+
+  }
+
+    .firstbtn {
+        box-shadow:inset 0px 1px 0px 0px #cf866c;
+        background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+        background-color:#d0451b;
+        border-radius:20px;
+        border:1px solid #942911;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:lato, serif;
+        font-size: 1.2em;
+        padding: 1em 1.5em;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #854629;
+    }
+    .firstbtn:hover {
+        background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+        background-color:#bc3315;
+    }
+    .firstbtn:active {
+        position:relative;
+        top:1px;
+    }
+    
+
+ .secondbtn {
+        box-shadow:inset 0px 1px 0px 0px #fff6af;
+        background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+        background-color:#ffec64;
+        border-radius: 20px;
+        border:1px solid #ffaa22;
+        display:inline-block;
+        cursor:pointer;
+        color:#333333;
+        font-family:lato, serif;
+        font-weight:bold;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffee66;
+        font-size: 1.2em;
+        padding: 1em 1.5em;
+        margin-left: 2em;
+    }
+    .secondbtn:hover {
+        background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+        background-color:#ffab23;
+    }
+    .secondbtn:active {
+        position:relative;
+        top:1px;
+    }
+    
+
+
+
+h3{
+    padding-left: 0.5rem;
+}
+
+.intrbtn {
+    display:flex
+}
+
+.text-on-grid-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fbf8f8;
+        font-size: 2rem;
+        text-decoration: none;
+        text-align: center;
+         font-size: 2rem;
+        text-shadow: 2px 2px chocolate;
+        font-family: 'Comfortaa', cursive;
+        text-decoration: none;
+      }
+
+      .text-on-grid-image:hover {
+
+    color: #fff6af;
+      }
+  .featuredtilte {
+    font-size: 2rem;          
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fbf8f8;
+      font-size: 2rem;
+      text-decoration: none;
+      text-align: center;
+      text-decoration: none;
+      text-shadow: 2px 2px chocolate;
+      font-family: 'Comfortaa', cursive;
+  }
+    @media only screen and (min-width: 780px){
+
+  .featuredtilte {
+            font-size: 7rem;          
+        }
+
+         article {
+            max-width:100%;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 20px 60px;
+            grid-template-areas:
+              "Introduction Hello-Grids"
+              "Ingredients Hello-Grids"
+              "Directions Hello-Grids";
+              margin: 10px 50px;
+          }
+          .Introduction { grid-area: Introduction; }
+          .Ingredients { grid-area: Ingredients; }
+          .Directions { grid-area: Directions; }
+          .Hello-Grids { grid-area: Hello-Grids; }
+        
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background:#805504;
+            align-items: center;
+        }
+        .grids-feat-images {
+            width:100%;
+            height: auto;
+
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            background:none;
+            flex-wrap: wrap;
+        }
+        nav div:first-child h1{
+            padding: 0;
+            margin:0 1rem;
+        }
+        nav div:first-child img{
+            height: 52px;
+            
+        }
+        nav ul li{
+            border-bottom:none;
+            flex: 1 0 auto;
+            position: relative;
+        }
+        nav ul li a{
+            padding:1.2rem 1rem;
+        }
+        nav ul li a::before, nav ul li a::after{
+            content: "";
+            position: absolute;
+            bottom:0;
+            right: 0;
+            width:0%;
+            height: 2px;
+            background: #805504;
+            transition: .2s width ease-in-out;
+        }
+
+        ul.to-be-differ {
+                background: var(--secondary);
+                padding: 1rem 4rem;
+                line-height: 2rem;        }
+        
+        nav ul li a::before{
+            left:0;
+        }
+        
+        nav ul li a:hover::after,nav ul li a:hover::before{
+            width: 50%;
+        } 
+        .introgrids{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 6px 6px;
+            grid-template-areas:
+              ". ."
+              ". ."
+              ". .";
+                  }
+    }
+
+    @media only screen and (min-width: 920px){
+
+    .introgrids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 6px 6px;
+    grid-template-areas:
+      ". . ."
+      ". . .";
+  }
+}
