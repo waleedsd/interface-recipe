@@ -265,6 +265,7 @@ h3{
         text-shadow: 2px 2px chocolate;
         font-family: 'Comfortaa', cursive;
         text-decoration: none;
+        cursor:pointer;
       }
 
       .text-on-grid-image:hover {
@@ -355,7 +356,7 @@ nav div:first-child h1{
         }
         nav div:first-child img{
             height: 52px;
-            
+            cursor:pointer;
         }
 nav ul li{
             border-bottom:none;
